@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Signup">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="5dp"
+            android:background="#9AD3F4"
+            android:fontFamily="serif"
+            android:text="Let's Register You!"
+            android:textAlignment="gravity"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:height="50dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter username"
+            android:textAlignment="gravity"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:height="50dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter password"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/atoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="a-z"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/AtoZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="A-z"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="0-9"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/charcount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="8 characters"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:height="50dp"
+            android:fontFamily="sans-serif"
+            android:hint="Confirm password"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:id="@+id/ed1"/>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:height="50dp"
+            android:backgroundTint="#9AD3F4"
+            android:fontFamily="sans-serif"
+            android:hint="REGISTER"
+            android:textAlignment="gravity"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</ScrollView>
