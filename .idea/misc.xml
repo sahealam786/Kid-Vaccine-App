@@ -1,0 +1,24 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_home.xml" value="0.275" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_home_page.xml" value="0.275" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_kidinformation.xml" value="0.264" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_main.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_vaccination_list.xml" value="0.1" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_view_vaccination.xml" value="0.2255892255892256" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/activity_viewkids.xml" value="0.25" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/list_template.xml" value="0.2255892255892256" />
+        <entry key="..\:/Users/prati/AndroidStudioProjects/VaccineProject/app/src/main/res/layout/single_item.xml" value="0.21203703703703702" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
